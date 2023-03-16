@@ -13,6 +13,7 @@ h1 {
   color: #ececec;
   font-weight: bold;
   font-size: 80px;
+  font-family: "Raleway", sans-serif;
 }
 h2 {
   text-align: center;
@@ -21,6 +22,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #9fd3c7;
+  font-family: "Raleway", sans-serif;
 }
 .info-paragraphs {
   font-family: "Open Sans", sans-serif;
@@ -36,12 +38,10 @@ h2 {
 .page-links {
   background: #142d4c;
 }
-.heading {
-  font-family: "Noto Serif Lao", serif;
-}
+
 .paragraph-headings {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .top-p {
   line-height: 2;
@@ -49,4 +49,5 @@ h2 {
 .learn-more {
   font-family: "Open Sans", sans-serif;
   background: #142d4c;
+  margin-bottom: 10px;
 }
