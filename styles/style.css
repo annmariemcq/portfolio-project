@@ -10,8 +10,8 @@ h1 {
   transform: translate(-50%, -50%);
   color: #ececec;
   font-size: 80px;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: thin;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 h2 {
   text-align: center;
@@ -51,9 +51,6 @@ h2 {
   color: #142d4c;
 }
 
-.top-p {
-  line-height: 1.9;
-}
 .learn-more {
   font-family: "Open Sans", sans-serif;
   background: #142d4c;
@@ -78,8 +75,5 @@ h2 {
   }
   .info-paragraphs {
     font-size: 13px;
-  }
-  .top-p {
-    line-height: 1.5;
   }
 }
