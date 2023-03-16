@@ -9,9 +9,9 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ececec;
-
   font-size: 80px;
   font-family: "Josefin Sans", sans-serif;
+  font-weight: thin;
 }
 h2 {
   text-align: center;
@@ -19,19 +19,17 @@ h2 {
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(56, 81, 112);
-  font-family: "Raleway", sans-serif;
+  color: white;
+  font-family: "Open Sans", sans-serif;
   font-size: 25px;
-  font-weight: 700;
+  font-weight: thin;
+}
+.container {
+  max-width: 800px;
+  text-align: center;
 }
 .text-over {
   position: relative;
-}
-.info-paragraphs {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  font-size: 17px;
-  color: #142d4c;
 }
 .navigation-links {
   text-align: center;
@@ -41,11 +39,18 @@ h2 {
 .page-links {
   background: #142d4c;
 }
-
 .paragraph-headings {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
 }
+
+.info-paragraphs {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #142d4c;
+}
+
 .top-p {
   line-height: 1.9;
 }
