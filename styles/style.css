@@ -15,8 +15,8 @@ h3 {
   text-align: center;
   color: #142d4c;
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  font-weight: thin;
+  font-size: 40px;
+  font-weight: normal;
 }
 .text-over-image {
   position: absolute;
@@ -68,6 +68,9 @@ h3 {
   color: white;
   line-height: 2;
   background: #142d4c;
+}
+.mission {
+  font-size: 15px;
 }
 
 @media (max-width: 576px) {
