@@ -9,17 +9,13 @@ h1 {
   font-weight: 300;
 }
 h2 {
-  text-align: center;
-  color: #142d4c;
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
-  font-weight: thin;
 }
 h3 {
   text-align: center;
   color: #142d4c;
   font-family: "Open Sans", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: thin;
 }
 .text-over-image {
@@ -67,15 +63,13 @@ h3 {
   background: #142d4c;
 }
 .additional-page-heading {
-  margin-top: 100px;
-  color: #142d4c;
-  line-height: 2;
-}
-.mission {
   text-align: center;
-  color: #142d4c;
-  margin: 70px 300px;
+
+  color: white;
+  line-height: 2;
+  background: #142d4c;
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
