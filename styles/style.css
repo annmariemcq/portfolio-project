@@ -8,6 +8,8 @@ html {
 }
 body {
   text-align: center;
+  background: var(--primary-colour);
+  color: white;
 }
 
 h1,
@@ -26,14 +28,10 @@ p {
 }
 h3,
 h5 {
-  color: #142d4c;
   font-size: 30px;
   font-weight: normal;
 }
-footer {
-  background: #142d4c;
-  color: white;
-}
+
 .nav-custom {
   background-color: #142d4c;
 }
@@ -42,7 +40,6 @@ footer {
   top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
 }
 .text-over {
   position: relative;
@@ -62,13 +59,12 @@ footer {
 .paragraph-headings {
   font-size: 20px;
   font-weight: 600;
-  color: #142d4c;
 }
 
 .info-paragraphs {
   line-height: 1.5;
   font-size: 15px;
-  color: #142d4c;
+
   margin: 0;
 }
 .photo {
@@ -80,9 +76,7 @@ footer {
   background: #142d4c;
 }
 .additional-page-heading {
-  color: white;
   line-height: 2;
-  background: #142d4c;
 }
 .newsletter {
   color: #142d4c;
