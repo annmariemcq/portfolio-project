@@ -1,22 +1,41 @@
+:root {
+  --heading-font: "Roboto", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --primary-colour: #142d4c;
+}
 html {
   min-height: 100%;
 }
+body {
+  text-align: center;
+}
 
+h1,
+h2,
+footer {
+  font-family: var(--heading-font);
+  font-weight: 400;
+}
 h1 {
-  text-align: center;
-  font-size: 70px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-size: 60px;
 }
-h2 {
-  font-family: "Open Sans", sans-serif;
+h3,
+h5,
+p {
+  font-family: var(--body-font);
 }
-h3 {
-  text-align: center;
+h3,
+h5 {
   color: #142d4c;
-  font-family: "Open Sans", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
+}
+footer {
+  background: #142d4c;
+  color: white;
+}
+.nav-custom {
+  background-color: #142d4c;
 }
 .text-over-image {
   position: absolute;
@@ -25,18 +44,17 @@ h3 {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-.container {
-  max-width: 800px;
-  text-align: center;
-}
 .text-over {
   position: relative;
 }
+.container {
+  max-width: 800px;
+}
+
 .navigation-links {
   text-align: center;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
 }
 .page-links {
   background: #142d4c;
@@ -48,7 +66,6 @@ h3 {
 }
 
 .info-paragraphs {
-  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   font-size: 15px;
   color: #142d4c;
@@ -59,12 +76,10 @@ h3 {
 }
 
 .learn-more {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
   background: #142d4c;
 }
 .additional-page-heading {
-  text-align: center;
-
   color: white;
   line-height: 2;
   background: #142d4c;
@@ -73,25 +88,20 @@ h3 {
   color: #142d4c;
   max-width: 400px;
 }
-.email {
-  text-align: center;
-}
 
-footer {
-  text-align: center;
-  background: #142d4c;
+.social-icons {
   color: white;
 }
-.mission {
-  font-size: 15px;
+
+.email {
+  color: white;
+  text-decoration: none;
 }
-.nav-custom {
-  background-color: #142d4c;
-}
+
 .contact-form {
   color: #142d4c;
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--body-font);
 }
 
 @media (max-width: 576px) {
@@ -99,17 +109,26 @@ footer {
     font-size: 30px;
   }
   h2 {
+    font-size: 21px;
+  }
+  h3,
+  h4 {
     font-size: 18px;
   }
+  h5 {
+    font-size: 23px;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
   .paragraph-headings {
-    font-size: 25px;
+    font-size: 16px;
   }
   .page-links,
   .learn-more {
     font-size: 12px;
     padding: 10px;
-  }
-  .info-paragraphs {
-    font-size: 13px;
   }
 }
