@@ -7,6 +7,10 @@ html {
   min-height: 100%;
 }
 body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background: var(--primary-colour);
   color: white;
@@ -22,18 +26,27 @@ h1 {
   font-size: 60px;
 }
 h3,
-h5,
+h4,
 p {
   font-family: var(--body-font);
 }
 h3,
-h5 {
+h4 {
   font-size: 30px;
   font-weight: normal;
 }
+h4 {
+  text-decoration: underline;
+}
+footer {
+  min-height: 50px;
+}
 
 .nav-custom {
-  background-color: #142d4c;
+  background-color: var(--primary-colour);
+}
+.main-body {
+  flex: 1;
 }
 .text-over-image {
   position: absolute;
@@ -45,7 +58,7 @@ h5 {
   position: relative;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .navigation-links {
@@ -72,18 +85,11 @@ h5 {
 
 .learn-more {
   font-family: var(--body-font);
-  background: #142d4c;
+  background: var(--primary-colour);
 }
 .additional-page-heading {
+  margin-top: 50px;
   line-height: 2;
-}
-.newsletter {
-  color: #142d4c;
-  max-width: 400px;
-}
-
-.social-icons {
-  color: white;
 }
 
 .email {
@@ -92,36 +98,45 @@ h5 {
 }
 
 .contact-form {
-  color: #142d4c;
-  font-size: 15px;
+  color: #7a7979;
   font-family: var(--body-font);
+}
+.newsletter {
+  color: var(--primary-colour);
+  max-width: 400px;
+}
+
+.social-icons {
+  color: white;
 }
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 30px;
-  }
-  h2 {
     font-size: 21px;
   }
-  h3,
-  h4 {
-    font-size: 18px;
+  h2 {
+    font-size: 19px;
   }
-  h5 {
-    font-size: 23px;
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 21px;
     font-weight: bolder;
   }
   p {
-    font-size: 13px;
+    font-size: 12px;
     padding-bottom: 10px;
   }
   .paragraph-headings {
-    font-size: 16px;
+    font-size: 14px;
   }
   .page-links,
   .learn-more {
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
+  }
+  .additional-page-heading {
+    margin-top: 20px;
   }
 }
