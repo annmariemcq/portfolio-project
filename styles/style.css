@@ -69,6 +69,19 @@ h3 {
   line-height: 2;
   background: #142d4c;
 }
+.newsletter {
+  color: #142d4c;
+  max-width: 400px;
+}
+.email {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background: #142d4c;
+  color: white;
+}
 .mission {
   font-size: 15px;
 }
