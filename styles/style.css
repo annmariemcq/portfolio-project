@@ -75,6 +75,11 @@ h3 {
 .nav-custom {
   background-color: #142d4c;
 }
+.contact-form {
+  color: #142d4c;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
 
 @media (max-width: 576px) {
   h1 {
